@@ -1,0 +1,24 @@
+# Виртуальные окружения
+.venv/
+venv/
+ENV/
+
+# Python кэш
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Секреты и локальные переменные
+.env
+*.local
+secrets.*
+
+# Временные файлы и артефакты
+*.log
+*.tmp
+scratch/
+dist/
+build/
